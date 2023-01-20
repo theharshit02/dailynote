@@ -5,6 +5,9 @@
     top: 0px;
     
     background: rgba(255, 255, 255, 0.8);
+
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -44,6 +47,11 @@
     letter-spacing: 0.01em;
     text-transform: capitalize;
     padding-left: 10px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background: #bebdbd;
 }
 
 img{
