@@ -5,4 +5,5 @@
     background: rgba(255, 255, 255, 0.8);
     opacity: 0.9;
     box-shadow: 2px 12px 27px rgba(4, 16, 18, 0.32);
+    display: flex;
 }

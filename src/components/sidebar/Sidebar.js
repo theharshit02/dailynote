@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import styles from './Sidebar.module.css'
 
-const Sidebar = () => {
-    const [select, setselect] = useState(0)
+const Sidebar = (props) => {
+    const [select, setselect] = useState("")
 
     function handleselect(e){
         setselect(e.target.id)
     }
+    props.choose(select)
 
   return (
     <div className={styles.sidebar}>
