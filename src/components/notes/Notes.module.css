@@ -1,0 +1,7 @@
+.notes{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

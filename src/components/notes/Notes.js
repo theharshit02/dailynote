@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './Notes.module.css'
+import Card from '../card/Card'
 
 const Notes = () => {
   return (
-    <div>
-      Notes Module
+    <div className={styles.notes}>
+      <Card/>
+      <Card/>
     </div>
   )
 }
