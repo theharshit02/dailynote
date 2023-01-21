@@ -8,6 +8,9 @@
     border-radius: 9.16667px;
 }
 
+.content{
+    padding-top: 20px;
+}
 .time{
     position: absolute;
     width: 130px;

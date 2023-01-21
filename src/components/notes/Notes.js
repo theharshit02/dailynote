@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './Notes.module.css'
 import Card from '../card/Card'
 
-const Notes = () => {
+const Notes = (props) => {
   return (
     <div className={styles.notes}>
-      <Card/>
-      <Card/>
+      <Card select={props.select}/>
+      <Card seelct={props.select}/>
     </div>
   )
 }

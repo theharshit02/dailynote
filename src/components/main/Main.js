@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div className={styles.main}>
       <Sidebar choose={handlechoose}/>
-      {select==="1"?<Notes/>:select==="2"?<Bookmarks/>:""}
+      {select==="1"?<Notes select={select}/>:select==="2"?<Bookmarks select={select}/>:""}
     </div>
   )
 }
